@@ -1,4 +1,4 @@
-package tree;
+package Tree.BinaryTree;
 
 public class BinaryTree {
     String data;
