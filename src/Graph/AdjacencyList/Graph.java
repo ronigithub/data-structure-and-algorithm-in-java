@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Graph {
 
-  ArrayList<GraphNode> nodeList = new ArrayList<GraphNode>();
+  ArrayList<GraphNode> nodeList;
 
   public Graph(ArrayList<GraphNode> nodeList) {
     this.nodeList = nodeList;
@@ -38,7 +38,7 @@ public class Graph {
   }
 
 
-  // BFS internall
+  // BFS internal
   void bfsVisit(GraphNode node) {
     LinkedList<GraphNode> queue = new LinkedList<GraphNode>();
     queue.add(node);

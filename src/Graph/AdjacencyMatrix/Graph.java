@@ -3,7 +3,7 @@ package Graph.AdjacencyMatrix;
 import java.util.ArrayList;
 
 public class Graph {
-    private ArrayList<GraphNode> nodeList = new ArrayList<>();
+    private ArrayList<GraphNode> nodeList;
     int[][] adjacencyMatrix;
 
     public Graph(ArrayList<GraphNode> nodeList) {
